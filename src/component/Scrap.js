@@ -22,7 +22,7 @@ class Scrap extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    const Url = "http://localhost:3002/scraper";
+    const Url = "https://stormy-cliffs-87410.herokuapp.com/scraper";
     const config = {
       url: this.state.url,
       path: this.state.path
